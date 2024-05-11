@@ -1,2 +1,20 @@
 # Hoje-fiz-meu-primeiro-projeto-basico
 é um projeto bem para iniciantes pois estou só começando nessa área
+
+#   COLOCAR AS NOTAS
+nota1 = input("coloque a nota1: ")
+nota2 = input("coloque a nota2: ")
+nota3 = input("coloque a nota3: ")
+nota4 = input("coloque a nota4: ")
+
+#Transformar text em numero // str em int
+nota1 = float(nota1)
+nota2 = float(nota2)
+nota3 = float(nota3)
+nota4 = float(nota4)
+
+#Fazendo o calculo
+resultado = (nota1 + nota2 + nota3 +nota4) / 4
+
+#Mostrar resultados
+print(resultado)
